@@ -1,4 +1,100 @@
+/*цвета
+основной текст - #212121
+второстепенный текс - #757575
+акцент - #2196F3
+текст героя - #FFFFFF*/
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-colort: #757575;
+  --akcent-text-color: -#2196F3;
+  --hero-text-color: #ffffff;
+}
+
+.body {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+/* Убирает точки у списков */
+ul {
+  list-style: none;
+}
+/* header */
+.header {
+  background-color: #f5f4fa;
+}
+/* style of logo */
+.logo-header {
+  color: #212121;
+}
+.logo-web {
+  color: #2196f3;
+}
+/* site navigation */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+/* contacts */
+.site-contacts a {
+  color: #757575;
+}
+.site-contacts a:hover,
+.site-contacts a:focus {
+  color: #2196f3;
+}
+
+/* hero section */
 .hero-section {
-  color: white;
   background-color: #2f303a;
+  padding: 200px 452px 280px 452px;
+}
+.hero-title {
+  position: absolute;
+  color: #ffffff;
+  width: 696px;
+  height: 120px;
+  top: 280px;
+  left: 452px;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* strengths */
+
+.strengths-title {
+  color: #212121;
+}
+.strengths-text {
+  color: #757575;
+}
+
+/* section Team */
+.team {
+  background-color: #e5e5e5;
+}
+.name {
+  color: #212121;
+}
+.position {
+  color: #757575;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+}
+.logo-web {
+  color: #2196f3;
 }
