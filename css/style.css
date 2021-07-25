@@ -24,6 +24,7 @@ ul {
 /* header */
 .header {
   background-color: var(--background-color);
+  outline: 2px solid black;
 }
 /* style of logo */
 .logo-header {
@@ -85,6 +86,7 @@ ul {
 
 /* hero section */
 .hero-section {
+  outline: 5px solid red;
   background-color: #2f303a;
 }
 .hero-title {
@@ -108,6 +110,10 @@ ul {
 
 /* strengths */
 
+.strengths {
+  outline: 2px solid blue;
+}
+
 .strengths-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -123,7 +129,12 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+/* services section */
 .services {
+  outline: 2px solid aqua;
+}
+.services-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
